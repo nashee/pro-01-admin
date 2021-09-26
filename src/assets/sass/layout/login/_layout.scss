@@ -1,0 +1,31 @@
+.container {
+    width: 30rem;
+    border: 1px solid lightgray;
+    margin: 0 auto;
+   }
+.header {
+    margin: 0 auto;
+    width: 100%;
+    height:3rem;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    font-size: 1.4rem;
+    margin: 0 auto;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    height: 1.6rem;
+    background-color: black;
+}

@@ -5,10 +5,8 @@
 @import  "base/extend.scss";
 
 //layout
-@import "layout/layout";
-@import "layout/login/footer";
-@import "layout/login/main";
-@import "layout/login/header";
+@import "layout/login/layout";
+
 
 //module
 @import "module/login/header";
@@ -19,3 +17,4 @@
 
 
 // theme
+
