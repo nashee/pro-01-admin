@@ -3,7 +3,15 @@
   box-sizing: border-box; }
 
 body {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  padding: 0 10px 0 10px; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
 
 .container {
   width: 30rem;
@@ -34,6 +42,34 @@ body {
   height: 1.6rem;
   background-color: black; }
 
+.h-container {
+  width: 100vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: 40px 600px  40px;
+  grid-gap: 5px; }
+
+.h-header {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  border: 2px solid gray; }
+
+.h-side {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  border: 2px solid gray; }
+
+.h-main {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border: 2px solid gray; }
+
+.h-footer {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  border: 2px solid gray; }
+
 h3 {
   font-size: 1.4rem;
   color: white; }
@@ -59,3 +95,25 @@ h4 {
 
 input {
   font-size: 1.3rem; }
+
+.nav {
+  display: flex;
+  justify-content: space-between; }
+  .nav__list {
+    display: flex;
+    align-items: center;
+    font-size: 1rem; }
+
+.h-side {
+  background-color: #080202; }
+  .h-side ul {
+    border: 1px solid white;
+    padding: 0; }
+  .h-side li {
+    text-align: left;
+    border: 1px solid white;
+    text-align: center; }
+  .h-side a {
+    color: white;
+    font-size: 1rem;
+    text-align: left; }

@@ -6,12 +6,15 @@
 
 //layout
 @import "layout/login/layout";
+@import "layout/home/layout";
 
 
 //module
 @import "module/login/header";
 @import "module/login/main";
 @import "module/login/footer";
+@import "module/home/header";
+@import "module/home/side";
 
 //state
 

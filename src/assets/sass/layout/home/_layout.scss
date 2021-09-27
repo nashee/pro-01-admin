@@ -1,0 +1,33 @@
+.h-container {
+    width: 100vw;
+    margin: 0 auto;
+   
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 40px 600px  40px;
+    grid-gap: 5px;
+    
+   
+}
+.h-header {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    
+    border: 2px solid gray;
+}
+.h-side {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border: 2px solid gray;
+}
+.h-main {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 2px solid gray;
+}
+.h-footer {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 2px solid gray;
+}
+
