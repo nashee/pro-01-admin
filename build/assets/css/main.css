@@ -117,3 +117,11 @@ input {
     color: white;
     font-size: 1rem;
     text-align: left; }
+
+.h-main table, .h-main th, .h-main td {
+  border: 2px solid gray;
+  margin: 4px;
+  padding: 10px; }
+
+.h-main table {
+  border-collapse: collapse; }
